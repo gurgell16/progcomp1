@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /*-espaçamento externo da página */
+    padding: 0; /*-espaçamento interno da página */
+    background-color: #f4f4f4;
+    text-align: center; /*texto centralizado*/
+
+}
+header {
+background-color: #28a745;
+color: white;
+/*15px (espaçamento interno acimo e abaixo) e 0px (direita e esquerda)*/
+padding: 15px 0px;
+font-size: 24px;
+}
+nav {
+    background: #007bff;
+    padding: 10px; /*espaçamento interno do menu */
+    display: flex; /*Plex Boxing */
+    justify-content: space-between; /*espaço entre os elementos do men*/
+    align-items: center; /*alinhamento na vertical */
+}
+#links-menu{
+    display: flex;
+    gap: 15px; /*distancia entre os itens do menu*/
+}
+    nav a { /*configura os links do menu*/
+        color: white;
+        text-decoration: none; /*não decora os links*/
+        padding: 10px 15px; /*(10px acima e abaixo) (15 px direita e esquerda*/
+        font-size: 18px;
+        background: #0056b3;
+        border-radius: 5px; /*cantos arredondados*/
+    }
+
+    img {
+        width: 120px;
+        height: auto;
+        margin-right: 80px; /* espacamento externo a direita*/
+        border-radius: 10px;
+    }
+    .container {
+        width: 80px; /* largura de 80% da largura da pagina*/
+        background: white;
+        border-radius: 10px;
+        /* espacamento externo 20px acima e abaixo*/
+        /* espacamento externo auto a direita e a esquerda*/
+        margin: 20px auto;
+        padding: 20px; /* espacamento interno*/
+        text-align: justify;
+    }
+    
