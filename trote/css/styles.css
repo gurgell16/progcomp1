@@ -12,6 +12,7 @@ color: white;
 /*15px (espaçamento interno acimo e abaixo) e 0px (direita e esquerda)*/
 padding: 15px 0px;
 font-size: 24px;
+border: 1px solid black;
 }
 nav {
     background: #007bff;
@@ -22,7 +23,7 @@ nav {
 }
 #links-menu{
     display: flex;
-    gap: 15px; /*distancia entre os itens do menu*/
+    gap: 20px; /*distancia entre os itens do menu*/
 }
     nav a { /*configura os links do menu*/
         color: white;
@@ -32,21 +33,97 @@ nav {
         background: #0056b3;
         border-radius: 5px; /*cantos arredondados*/
     }
-
+    nav a:hover {
+        background: blue;
+    }
     img {
         width: 120px;
         height: auto;
-        margin-right: 80px; /* espacamento externo a direita*/
+        margin-right: 20px; /* espacamento externo a direita*/
         border-radius: 10px;
     }
     .container {
-        width: 80px; /* largura de 80% da largura da pagina*/
+        width: 80%; /* largura de 80% da largura da pagina*/
+        margin: 20px auto;
         background: white;
-        border-radius: 10px;
+        border-radius: 10%;
         /* espacamento externo 20px acima e abaixo*/
         /* espacamento externo auto a direita e a esquerda*/
-        margin: 20px auto;
         padding: 20px; /* espacamento interno*/
         text-align: justify;
     }
-    
+    h2 {
+        text-align: center;
+    }
+    ol li{ 
+        padding-bottom: 10px;
+    }
+   table tr td {
+        padding: 10px 15px;
+    }
+    table{
+        margin: 0 auto;
+    }
+    text-align justify
+
+    h2 {
+    text-align: center;
+}
+    ol li {
+    padding-bottom: 10px;
+}
+    table tr td { 
+    padding: 20px;
+}
+    table {
+        margin: 0 auto;
+}
+    .Laranja {
+    background-color: orange;
+}
+    .Preta {
+    background-color: black;
+    color: white;
+}
+    .Roxa {
+    background-color: blueviolet;
+}
+    .Verde {
+    background-color: green;
+}
+    .Vermelha {
+    background-color: red;
+}
+    thead{ 
+        background-color: #0056b3;
+    color: #f4f4f4
+}
+.campos{
+    margin-bottom: 20px;
+}
+.tabela{
+    text-align: center;
+}
+.tabela td{
+    padding: 0px;
+    margin: 5px;
+}
+.alisuple{
+    text-align: center;
+}
+.caixaazul{
+    background: rgb(151, 202, 215);
+    padding: 20px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 10px auto;
+    font-size: 20px;
+}
+.ul{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.meta{
+    font-weight: bold;
+    margin-top: 20px;
+}
