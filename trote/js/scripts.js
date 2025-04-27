@@ -2,14 +2,24 @@ function calcular(){
     // vamos criar 2 variáveis
     // JS as variáveis não possuem tipo
     let Mascote, Homenagem, Leite, kit, suplemento, soma, equipe, sangue
+    // recupera o valor do mascote digitado pelo usuário
     Mascote = Number(document.getElementById("Mascote").value )
+    // recupera o valor da homenagem digitado pelo usuário
     Homenagem = Number(document.getElementById("Homenagem").value)
+    // recupera a qtde de litros de leite
     Leite = Number(document.getElementById("Leite").value)
+     // recupera a qtde avulsa de kits de alimentação
     kit = Number(document.getElementById("kit").value)
+    // recupera a qtde avulsa de suplemento 
     suplemento = Number(document.getElementById("suplemento").value) 
+    // calcular a soma parcial
     soma = Mascote + Homenagem + (2 * Number(Leite))
+    // vamos calcular a pontuacao considerando metas de kit e supl
     equipe = document.getElementById("equipe").value
+    // doação de sangue
+    sangue = Number(document.getElementById("sangue").value)
     if (equipe == "Laranja"){
+        // verifica kit e suplemento
         if(kit >= 97 && suplemento >= 49){
             soma = soma + 5000 + ((kit-97) * 30) + ((suplemento - 49) * 15)
         }
