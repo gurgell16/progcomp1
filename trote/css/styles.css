@@ -127,3 +127,43 @@ nav {
     font-weight: bold;
     margin-top: 20px;
 }
+.laranja{
+    background-color: orange;
+    color: black;
+}
+.preta{
+    background-color: black;
+    color: white;
+}
+.roxa{
+    background-color: purple;
+    color: black;
+}
+.verde{
+    background-color: green;
+    color: black;
+}
+.vermelha{
+    background-color: red;
+    color: black;
+}
+.orange{
+    background-color: orange;
+    color: black;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.purple{
+    background-color: purple;
+    color: black;
+}
+.green{
+    background-color: green;
+    color: black;
+}
+.red{
+    background-color: red;
+    color: black;
+}
