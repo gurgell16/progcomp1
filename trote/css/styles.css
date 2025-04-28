@@ -127,6 +127,9 @@ nav {
     font-weight: bold;
     margin-top: 20px;
 }
+.tabela{
+    text-align: center;
+}
 .laranja{
     background-color: orange;
     color: black;
@@ -147,6 +150,9 @@ nav {
     background-color: red;
     color: black;
 }
+.tebala{
+    text-align: center;
+}
 .orange{
     background-color: orange;
     color: black;
@@ -166,4 +172,43 @@ nav {
 .red{
     background-color: red;
     color: black;
+}
+.boxblue{
+    background: rgb(151, 202, 215);
+    padding: 20px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 10px auto;
+    font-size: 20px;
+}
+.tabela{
+    text-align: center;
+}
+.cor1{
+    background-color: orange;
+    color: black;
+}
+.cor2{
+    background-color: black;
+    color: white;
+}
+.cor3{
+    background-color: purple;
+    color: black;
+}
+.cor4{
+    background-color: green;
+    color: black;
+}
+.cor5{
+    background-color: red;
+    color: black;
+}
+.boxazul{
+    background: rgb(151, 202, 215);
+    padding: 20px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 10px auto;
+    font-size: 20px;
 }
